@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "427419702361",
+    "project_id": "asmand102-54fdb",
+    "storage_bucket": "asmand102-54fdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427419702361:android:6e4521a669cc73e3488d48",
+        "android_client_info": {
+          "package_name": "fpl.quangnm.asmand102"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFatfc4RbYeOP32WbkbsWX74pd4IsUKw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

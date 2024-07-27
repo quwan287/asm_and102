@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoiBietOn"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/demo2TxtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"/>
+    <EditText
+        android:id="@+id/demo2TxtContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Content"/>
+    <EditText
+        android:id="@+id/demo2TxtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"/>
+    <EditText
+        android:id="@+id/demo2TxtType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type"
+        android:clickable="false"
+        android:focusable="false"
+        android:inputType="none"
+        android:cursorVisible="false"/>
+
+    <Button
+        android:id="@+id/demo2_btnADD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:backgroundTint="#61ED15"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/demo2_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"/>
+</LinearLayout>

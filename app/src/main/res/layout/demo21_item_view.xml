@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/item_lab2btn"
+    >
+    <CheckBox
+        android:id="@+id/demo21_item_CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"/>
+    <TextView
+        android:id="@+id/demo21_tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="habcuiasbc"
+        android:layout_marginLeft="10dp"/>
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_marginLeft="40dp">
+
+        <LinearLayout
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_marginRight="0dp">
+
+            <Button
+                android:id="@+id/demo21_btnEDIT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="EDIT"
+                />
+
+            <Button
+                android:id="@+id/demo21_btnDELETE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="DELETE" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/date_demo211"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="alsdjaod"/>
+    </LinearLayout>
+</LinearLayout>
